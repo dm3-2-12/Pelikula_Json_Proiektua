@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Pelikulak_JSON_Proiektua.jnlp">
+  <information>
+    <title>Pelikulak_JSON_Proiektua</title>
+    <vendor>DM3-2-12</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Pelikulak_JSON_Proiektua.jar" size="10677" download="eager" />
+    <jar href="lib\javax.json-1.1.jar" size="125521" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Pelikulak_JSON_Proiektua" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="view.MainWindow"  name="Pelikulak_JSON_Proiektua" />
+  <update check="always"/>
+</jnlp>
